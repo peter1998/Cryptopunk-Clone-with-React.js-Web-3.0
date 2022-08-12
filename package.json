@@ -1,6 +1,7 @@
 {
   "homepage": "http://peter1998.github.io/Cryptopunk-Clone-with-React.js-Web-3.0",
   "name": "react-nft-challenge",
+  "proxy": "https://testnets-api.opensea.io/assets?asset_contract_address=0xbf6134EbD8669F996A1E925fc3ae93cA1711803e&order_direction=asc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "cors": "^2.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -40,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "http-proxy-middleware": "^2.0.6"
   }
 }
