@@ -14,7 +14,7 @@ function App() {
   const getMyNfts = async () => {
     try {
       const response = await fetch(
-        "testnets-api.opensea.io/assets?asset_contract_address=0xbf6134EbD8669F996A1E925fc3ae93cA1711803e&order_direction=asc"
+        "https://testnets-api.opensea.io/assets?asset_contract_address=0xbf6134EbD8669F996A1E925fc3ae93cA1711803e&order_direction=asc"
       );
 
       const json = await response.json();
